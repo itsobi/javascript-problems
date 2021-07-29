@@ -15,7 +15,7 @@ Step 8: Log the function to the console.
 
 function findLongestWord(str) {
     let arrayOfWords = str.split(" ");
-    let longestWord = " ";
+    let longestWord = "";
 
     for (let i = 0; i < arrayOfWords.length; i++) {
         if (arrayOfWords[i].length > longestWord.length) {
