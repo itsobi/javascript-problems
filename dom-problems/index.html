@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Problem 1</title>
+</head>
+<body>
+    
+    <!-- Step 1: Between body tags, create a paragraph element inside a div. Include dummy text -->
+    <!-- Step 2: Create script tag. Inside tag create function paragraphColor -->
+    <!-- Step 3: Inside code block write, document.getElementById to select the specific element you want to change which is "head" After you declare the ID name within the parentheses include .style.backgroundColor and set it equal to what color you wish to change it to.  -->
+    
+    <div id="head">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitasse platea dictumst quisque sagittis purus sit. Massa tincidunt nunc pulvinar sapien et ligula. Tempor id eu nisl nunc mi. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Ullamcorper eget nulla facilisi etiam. Mi proin sed libero enim sed faucibus. Massa placerat duis ultricies lacus sed turpis tincidunt id aliquet. Sed adipiscing diam donec adipiscing. Aenean sed adipiscing diam donec adipiscing tristique risus nec.
+        </p>
+    </div>
+
+    <button onclick="paragraphColor()">Click Me to Change Background Color of Text!</button>
+
+    <script>
+        function paragraphColor() {
+            document.getElementById("head").style.backgroundColor = "red";
+        }
+    </script>
+
+</body>
+</html>
