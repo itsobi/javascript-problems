@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM: Problem 2</title>
+</head>
+<body>
+    <p><a id= "anchorTag" href="https://herdzone.com/sports/football/roster/obi-obialo/5409">Obi Obialo</a></p>
+
+
+    <button onclick="myLink()">Click Me to See URL of Link!</button>
+
+    <p id="urlText"></p>
+
+    <script>
+        function myLink() {
+            let x = document.getElementById("anchorTag").href;
+            document.getElementById("urlText").innerHTML = x;
+        }
+    </script>
+
+</body>
+</html>
