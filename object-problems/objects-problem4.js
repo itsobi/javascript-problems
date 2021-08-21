@@ -6,7 +6,7 @@ const car = {
 };
 
 function checkObj(prop) {
-    if (car.hasOwnProperty(prop)) {
+    if (car.hasOwnProperty(obj,prop)) {
         return true;
     }
     else {
@@ -14,4 +14,4 @@ function checkObj(prop) {
     }
 }
 
-console.log(checkObj("year"));
+console.log(checkObj(car, "year"));
