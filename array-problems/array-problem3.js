@@ -1,7 +1,7 @@
-let cars = ["Jaguar", "Porsche", "Chevy", "Tesla"];
+// Write a JavaScript program to sort the items of an array.
 
-function sortCars() {
-  console.log(cars.sort());
+function sortItems(arr) {
+  console.log(arr.sort());
 }
 
-sortCars();
+sortItems(["Jaguar", "Porsche", "Chevy", "Tesla"]);
