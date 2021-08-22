@@ -1,7 +1,7 @@
 // Write a JavaScript program to sort the items of an array.
 
 function sortItems(arr) {
-  console.log(arr.sort());
+  return (arr.sort());
 }
 
-sortItems(["Jaguar", "Porsche", "Chevy", "Tesla"]);
+console.log(sortItems(["Jaguar", "Porsche", "Chevy", "Tesla"]));
