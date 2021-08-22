@@ -10,8 +10,8 @@ const car = {
 
 
 function findLength(obj) {
-  console.log(Object.keys(obj).length);
+  return (Object.keys(obj).length);
 }
 
-findLength(car);
+console.log(findLength(car));
 
