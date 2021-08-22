@@ -10,13 +10,9 @@ const car = {
     year: 2021
 };
 
-function checkObj(prop) {
-    if (obj.hasOwnProperty(obj,prop)) {
-        return true;
-    }
-    else {
-        return false;
-    }
+function checkObj(obj, prop) {
+    return obj.hasOwnProperty(prop);
+       
 }
 
 console.log(checkObj(car, "year"));
