@@ -2,15 +2,11 @@
 
 
 
-const sum = (array) => {
-  if (array.length === 0) {
-    return 0
+function sum(arr) {
+  if (arr.length < 1) {
+    return 0;
   }
-  else {
-    return array[0] + sum(array.slice(1))
-  }
+  return arr.pop() + sum(arr);
 }
 
-const sumValue = sum([5, 1, 45, 6, 8]);
-
-console.log(sumValue);
+console.log(sum([5, 1, 45, 6, 8]));
