@@ -1,10 +1,19 @@
-// 1: Create function vowelCounter with parameter of (str)
-// 2: In function code block, create variable vowels = "aeiou"
-// and variable counter = 0 to hold numeric count of vowels in string passed in
-// 3: Create for loop through length of str
-// 4: In code block create if statement, if vowels.indexOf(str[i].toLowerCase()) is greater than -1
-// increase counter by 1 (counter++)
-// 5: return counter
+/*
+Write a JavaScript function that accepts a string as a parameter
+and counts the number of vowels within the string.
+Hint: use the "spilt", the Array#includes method and, a "for" loop or "forEach" loop.
+*/
+
+/*
+1: Define function that takes a string.
+2: Create variable that will hold string of vowels. (aeiou)
+3: Create variable that will count how many vowels in string,
+set equal to 0
+4: Create for loop to iterate through each letter in string
+5: If a vowel is found within string. Add 1 to the counter variable
+6: If vowel is NOT found nothing will happen
+7: Return counter
+*/
 
 function vowelCounter(str) {
   let vowels = "aeiou";
