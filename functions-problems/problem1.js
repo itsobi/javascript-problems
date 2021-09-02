@@ -2,14 +2,17 @@
 // Hint: use the "spilt" method and a "for" loop.
 
 /*
-Step 1: Create function findLongestWord with parameter (str)
-Step 2: Create variable for array of words using the split method. let arrayOfWords = str.split(" ");
-Step 3: Create variable that will hold the longest word. Set the variable to an empty string: let longestWord = "";
-Step 4: Create for loop to iterate through array of words. for (let i = 0; i < arrayOfWords.length; i++);
-Step 5: Create a conditional if statement to compare the longest word with each word in the array. 
-Step 6: In the if statement code block, set the longestWord = arrayOfWords[i] to store the word
-Step 7: return the value of the single word.
-Step 8: Log the function to the console.
+Write a function finding the longest word within a string.
+Example str: Hi, my name is Obi
+1: Define function that takes in a string
+2: Break string into array of each individual word
+3: define var longestWord and set default value to empty string
+4: Create for loop to iterate over each word in array
+5: Compare length of current word in loop to length of the longestWord
+6: If the current word is longer than longestWord, the current word becomes longestWord
+7: If the current word is NOT longer than longestWord, nothing will happen.
+8: KEEP LOOPING
+9: Return longestWord
 */
 
 
